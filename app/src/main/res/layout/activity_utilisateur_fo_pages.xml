@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgimg2"
     tools:context=".view.UtilisateurFoPages">
 
     <ScrollView
@@ -29,10 +30,9 @@
         android:id="@+id/container_items_bottom_fo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/menu_fo"
         android:background="@color/bottomColor"
-        app:itemTextColor="@drawable/bottom_colors"
         app:itemIconTint="@drawable/bottom_colors"
-    />
+        app:itemTextColor="@drawable/bottom_colors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_fo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,25 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.UtilisateurAcPages"
-    >
+    android:background="@drawable/bgimg2"
+    tools:context=".view.UtilisateurAcPages">
 
     <FrameLayout
         android:id="@+id/fragments_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/container_items_bottom"
-    />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/container_items_bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/menu"
-        app:itemTextColor="@drawable/bottom_colors"
-        app:itemIconTint="@drawable/bottom_colors"
         android:background="@color/bottomColorAc"
-    />
+        app:itemIconTint="@drawable/bottom_colors"
+        app:itemTextColor="@drawable/bottom_colors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

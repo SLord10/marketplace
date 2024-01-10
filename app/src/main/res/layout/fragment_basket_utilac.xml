@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00CC92">
+    android:background="@drawable/bgimg2">
 
     <TextView
         android:id="@+id/LblComUtilAc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Vos commandes"
-        android:textSize="30sp"
-        android:textColor="#FFFFFF"
         android:layout_marginTop="60dp"
-    />
-<LinearLayout
-    android:id="@+id/ContainerCom"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="350dp"
-    android:layout_below="@+id/LblComUtilAc"
-    android:layout_marginTop="60dp">
-    <ListView
-        android:id="@+id/ContainerCommandes"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/S"
-        />
-</LinearLayout>
+        android:gravity="center_horizontal"
+        android:text="Your Orders"
+        android:textColor="#0B0707"
+        android:textSize="30sp" />
 
+    <LinearLayout
+        android:id="@+id/ContainerCom"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/LblComUtilAc"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/ContainerCommandes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/S" />
+    </LinearLayout>
 
 
     <Button
@@ -39,9 +37,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ContainerCom"
         android:layout_centerHorizontal="true"
-        android:background="#FFFFFF"
-        android:text="Supprimer"
-        android:textColor="#247C1A"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="60dp"
-        android:layout_marginTop="30dp"/>
+        android:background="#2E4D70"
+        android:text="Delete"
+        android:textColor="#FFFFFF" />
 </RelativeLayout>

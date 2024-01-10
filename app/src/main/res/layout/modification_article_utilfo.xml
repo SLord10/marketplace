@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="#14B1A4">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimg2">
+
     <TextView
         android:id="@+id/LblModificationArticle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Modifiez votre article"
-        android:gravity="center"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="60dp"
-    />
+        android:gravity="center"
+        android:text="Edit Article"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/LblArticle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nom article"
-        android:textColor="#FFFFFF"
-        android:textSize="25sp"
         android:layout_below="@+id/LblModificationArticle"
-        android:layout_marginTop="60dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:text="Article Name"
+        android:textColor="#000000"
+        android:textSize="25sp" />
 
     <EditText
         android:id="@+id/modif_descArticle_utilFo"
-        android:inputType="textMultiLine"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:hint="Description"
-        android:textColorHint="#FFFFFF"
         android:layout_below="@+id/LblArticle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-    />
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
     <LinearLayout
         android:id="@+id/containerEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_below="@+id/modif_descArticle_utilFo"
         android:layout_marginTop="40dp"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <EditText
             android:id="@+id/modif_prixArticle_utilFo"
@@ -53,10 +57,10 @@
             android:layout_height="wrap_content"
             android:autofillHints="Prix"
             android:gravity="center"
-            android:hint="Prix"
+            android:hint="Price"
             android:inputType="numberDecimal"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF" />
+            android:textColor="#100B0B"
+            android:textColorHint="#000000" />
 
         <EditText
             android:id="@+id/modif_qteArticle_utilFo"
@@ -68,7 +72,7 @@
             android:hint="Qte"
             android:inputType="number"
             android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF" />
+            android:textColorHint="#000000" />
     </LinearLayout>
 
     <Button
@@ -80,7 +84,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginBottom="20dp"
         android:background="#CAC4C4"
-        android:text="Annuler"
+        android:text="Cancel"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -91,7 +95,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="60dp"
         android:background="#FFFFFF"
-        android:text="Modifier"
+        android:text="Update"
         android:textColor="#14B1A4" />
 
 </RelativeLayout>

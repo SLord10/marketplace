@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#035C7E">
+    android:background="@drawable/bgimg">
 
     <TextView
         android:id="@+id/lbl_maj_profil_fo"
@@ -13,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:text="@string/lbl_modif_utilFo"
-        android:textColor="#ffffff"
+        android:textColor="#0C0B0B"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,9 +27,9 @@
         android:ems="10"
         android:hint="@string/rs_util_fo"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
+        android:textColor="#131111"
         android:textColorHighlight="#6E3D1D"
-        android:textColorHint="#F1F1F1"
+        android:textColorHint="#120E0E"
         android:textColorLink="#6E3D1D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,8 +44,8 @@
         android:ems="10"
         android:hint="@string/rib_util_fo"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
+        android:textColor="#090808"
+        android:textColorHint="#171515"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rs_modif_utilFo" />
@@ -61,8 +60,8 @@
         android:ems="10"
         android:hint="@string/addr_util_fo"
         android:inputType="textPostalAddress"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
+        android:textColor="#0C0B0B"
+        android:textColorHint="#130F0F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rib_modif_utilFo" />
@@ -76,8 +75,8 @@
         android:ems="10"
         android:hint="@string/pass_util_fo"
         android:inputType="textPassword"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
+        android:textColor="#121010"
+        android:textColorHint="#150E0E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addr_modif_utilFo" />
@@ -91,8 +90,8 @@
         android:ems="10"
         android:hint="@string/mail_util_fo"
         android:inputType="textEmailAddress"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FFFFFF"
+        android:textColor="#171414"
+        android:textColorHint="#100C0C"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pass_modif_utilFo" />
@@ -102,14 +101,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="250dp"
-        android:background="@color/modif_util_fo"
+        android:background="#2B5285"
         android:text="@string/modif_util_fo"
-        android:textColor="#035C7E"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mail_modif_utilFo"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintVertical_bias="0.193" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

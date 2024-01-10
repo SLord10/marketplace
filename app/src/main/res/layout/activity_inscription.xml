@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
     tools:context=".view.InscriptionActivity">
 
     <LinearLayout
@@ -19,12 +20,14 @@
 
             <TextView
                 android:id="@+id/textView2"
+                style="@style/Widget.AppCompat.TextView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="@string/insc_client"
-                android:textColor="#3D3FAC"
-                android:textSize="25sp" />
+                android:textColor="#161629"
+                android:textColorHighlight="#352424"
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -76,9 +79,9 @@
                 android:id="@+id/ribET"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:autofillHints="@string/insc_rib"
                 android:ems="10"
                 android:hint="@string/insc_rib"
-                android:autofillHints="@string/insc_rib"
                 android:inputType="textPersonName" />
 
             <RadioGroup

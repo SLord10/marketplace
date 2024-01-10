@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
     tools:context=".view.MainActivity">
 
     <LinearLayout
@@ -21,11 +22,11 @@
             <TextView
                 android:id="@+id/tvConnexion"
                 android:layout_width="match_parent"
-                android:layout_height="136dp"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="@string/co_connexion"
                 android:textColor="#4A1E1E"
-                android:textSize="25sp" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -41,18 +42,18 @@
                 android:id="@+id/usernameET"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:autofillHints="@string/insc_username"
                 android:ems="10"
                 android:hint="@string/insc_username"
-                android:autofillHints="@string/insc_username"
                 android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/passwordET"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:autofillHints="@string/insc_password"
                 android:ems="10"
                 android:hint="@string/insc_password"
-                android:autofillHints="@string/insc_password"
                 android:inputType="textPassword" />
         </LinearLayout>
 
@@ -69,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
-                android:background="#4C415C"
+                android:background="#886EAE"
                 android:text="@string/co_connexion"
                 android:textColor="#FFFFFF" />
 
@@ -78,7 +79,7 @@
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="#A07DD1"
+                android:background="#602EA6"
                 android:text="@string/insc_inscrireBT"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF" />
