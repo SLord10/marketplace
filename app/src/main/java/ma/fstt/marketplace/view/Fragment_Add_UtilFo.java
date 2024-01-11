@@ -41,7 +41,7 @@ public class Fragment_Add_UtilFo extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         //Récupération de la vue pour pouvoir rechercher les éléments graphiques.
-        View view = inflater.inflate(R.layout.fragment_add_fo, container, false);
+        View view = inflater.inflate(R.layout.new_article, container, false);
 
         //Récupération du contexte pour pouvoir afficher des Toasts sur la page.
         Context context = container.getContext();

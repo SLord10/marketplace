@@ -22,7 +22,7 @@ public class UtilisateurFoPages extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_utilisateur_fo_pages);
+        setContentView(R.layout.supplier_home);
         init();
         bottomNavigationFo.setSelectedItemId(R.id.nav_home_fo);
     }

@@ -47,7 +47,7 @@ public class Commandes_Adapter extends BaseAdapter {
         if(convertView == null){
             holder = new ViewHolder();
 
-            convertView = inflater.inflate(R.layout.row_lignecommande, null);
+            convertView = inflater.inflate(R.layout.orders_row, null);
 
             holder.LblComArticle = convertView.findViewById(R.id.LblComArticle);
             holder.LblComFournisseur = convertView.findViewById(R.id.LblComFournisseur);

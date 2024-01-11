@@ -25,7 +25,7 @@ public class InscriptionFoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inscription_fo);
+        setContentView(R.layout.supplier_signup);
         init();
     }
 

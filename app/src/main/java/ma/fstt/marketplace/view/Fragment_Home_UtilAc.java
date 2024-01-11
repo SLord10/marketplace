@@ -36,7 +36,7 @@ public class Fragment_Home_UtilAc extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_home_utilac, container, false);
+        View view = inflater.inflate(R.layout.user_articles_list, container, false);
         Context context = container.getContext();
         init(context, view);
         return view;

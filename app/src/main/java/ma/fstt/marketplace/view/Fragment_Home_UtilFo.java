@@ -33,7 +33,7 @@ public class Fragment_Home_UtilFo extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_home_fo, container, false);
+        View view = inflater.inflate(R.layout.supplier_articles, container, false);
         Context context = container.getContext();
         init(context, view);
         return view;

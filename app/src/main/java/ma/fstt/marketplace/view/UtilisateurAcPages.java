@@ -21,7 +21,7 @@ public class UtilisateurAcPages extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_utilisateur_ac_pages);
+        setContentView(R.layout.user_home);
         init();
         bottomNav.setSelectedItemId(R.id.nav_home);
     }

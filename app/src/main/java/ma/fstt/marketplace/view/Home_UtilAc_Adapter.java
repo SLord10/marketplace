@@ -48,7 +48,7 @@ public class Home_UtilAc_Adapter extends BaseAdapter {
         if(convertView==null){
             holder = new ViewHolder();
 
-            convertView = inflater.inflate(R.layout.row_listviewadapter_utilac, null);
+            convertView = inflater.inflate(R.layout.row_listviewadapter_user, null);
 
             holder.row_Article = (TextView)convertView.findViewById(R.id.row_Article);
             holder.row_Prix = (TextView)convertView.findViewById(R.id.row_Prix);

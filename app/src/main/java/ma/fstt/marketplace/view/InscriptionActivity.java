@@ -25,7 +25,7 @@ public class InscriptionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inscription);
+        setContentView(R.layout.signup);
         //Utilisation de la méthode init() à la création de l'activity
         init();
     }

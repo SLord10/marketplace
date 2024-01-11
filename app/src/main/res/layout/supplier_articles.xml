@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#70AEC6">
+    android:background="@drawable/bgimg2">
+
     <TextView
         android:id="@+id/LblTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vos articles"
-        android:textSize="30sp"
-        android:textColor="@android:color/white"
-        android:gravity="center"
         android:layout_marginTop="60dp"
-    />
+        android:gravity="center"
+        android:text="Your Articles"
+        android:textColor="#000000"
+        android:textSize="30sp" />
 
     <ListView
         android:id="@+id/listViewArticles"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/LblTitle"
         android:layout_marginTop="60dp"
-        android:layout_marginBottom="60dp"
-        android:layout_below="@+id/LblTitle"/>
+        android:layout_marginBottom="60dp" />
 
 </RelativeLayout>

@@ -35,7 +35,7 @@ public class Fragment_Account_UtilFo extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_account_fo, container, false);
+        View view = inflater.inflate(R.layout.supplier_edit_acc, container, false);
         this.context=container.getContext();
         init(view);
         return view;

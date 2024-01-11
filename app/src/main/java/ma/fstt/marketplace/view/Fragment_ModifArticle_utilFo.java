@@ -40,7 +40,7 @@ public class Fragment_ModifArticle_utilFo extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.modification_article_utilfo, container, false);
+        View view = inflater.inflate(R.layout.article_edit, container, false);
         Context context= container.getContext();
         init(context, view);
         return view;
